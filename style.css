@@ -4,18 +4,33 @@ html, body {
   width: 100%;
   font-family: 'Roboto', sans-serif; 
 }
+h1{
+    text-align: center;
+    color: azure;
+}
+.container{
+    width: 400px;
+    margin:  150px 500px;
+    background-color:rgb(31, 40, 40);
+    padding: 10px;
+    border-radius: 10px;
+}
 
 .button{
   width: 66px;
-  padding: 20px;
   margin: 0 3px;
+  padding: 10px;
   border: 2px solid black;
   border-radius: 9px;
   cursor: pointer;
+  font-size: 20px;
+  background-color: darkgray;
+  color: black;
 }
 
 .row{
   margin: 8px 0;
+  padding-left: 50px;
 }
 .row input{
   width: 291px;
